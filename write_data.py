@@ -7,8 +7,8 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets'] # mendefinisikan “iz
 
 credential = Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
 
-SPREADSHEET_ID = '1VTjrSr2cTfmeVg1wUnLeX2BE_8Aya6wG4QNr4NxaPHY'
-RANGE_NAME = 'testing!A2:F11'
+SPREADSHEET_ID = '1VTjrSr2cTfmeVg1wUnLeX2BE_8Aya6wG4QNr4NxaPHY' # id spreadsheet yang ingin diakses
+RANGE_NAME = 'testing!A2:F11' # range yang ingin diakses
 
 def main():
     try:
